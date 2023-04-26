@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    />
+    <link rel="stylesheet" href="./css//index.css" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap" rel="stylesheet"> -->
+    <title>DigiMoksha</title>
+  </head>
+  <body class="overflow-x-hidden">
+    <div class="relative mx-40">
+      <header class="flex justify-between items-center px-4 py-2 bg-white-500">
+        <div>
+          <img src="./assets/logo.jpeg" alt="logo" class="h-16" />
+        </div>
+        <nav class="flex items-center justify-end">
+          <div class="ml-4">
+            <ul
+              class="menu text-blue-400 flex flex-row justify-end items-end ml-44 space-x-4 hidden"
+              data-aos-duration="1200"
+            >
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Industries</a></li>
+              <li><a href="#">Solutions</a></li>
+              <li><a href="#">Case Studies</a></li>
+            </ul>
+          </div>
+
+          <div
+            id="hamBurger-menu"
+            class="flex flex-col justify-center items-end cursor-pointer h-12 ml-auto transition-transform duration-500"
+            onclick="toggleMenu()"
+          >
+            <div
+              class="bg-blue-400 w-6 h-1 transform rotate-0 transition-transform duration-100"
+            ></div>
+            <div
+              class="bg-blue-400 w-6 h-1 mt-1 transform rotate-0 transition-transform duration-500"
+            ></div>
+            <div
+              class="bg-blue-400 w-6 h-1 mt-1 transform rotate-0 transition-transform duration-100"
+            ></div>
+          </div>
+        </nav>
+      </header>
+      <!-- Section1 -->
+      <section class="z-10 py-4 lg:py-4 xl:py-4 2xl:py-4 h-[900px]">
+        <div class="relative mt-6 h-1/5">
+          <div class=" absolute w-1/2">
+            <img
+              src="./assets/shape.png"
+              alt="shape"
+              class="absolute top-0 left-0 z-0"
+              data-aos="fade-right"
+              data-aos-delay="300"
+              data-aos-offset="50%"
+              data-aos-duration="1000"
+            />
+            <!-- <img src="assets/ex.jpeg" alt="Image 2" class="absolute top-0 left-0 z-10 ml-44"> -->
+
+            <img
+              src="assets/andrew.png"
+              alt="Small Image"
+              class="rounded-full overflow-hidden z-10"
+              data-aos="zoom-in"
+              data-aos-init="false"
+              data-aos-animate="true"
+              data-aos-once="true"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+              data-aos-once="false"
+              data-aos="zoom-out"
+              data-aos-offset="50%"
+            />
+          </div>
+          <div
+            class="absolute w-1/2 top-0 right-0 z-10 mt-72 text-center"
+            data-aos="fade-left"
+            data-aos-delay="500"
+            data-aos-duration="800"
+          >
+          <div class="w-[560px]">
+            <span
+              class="text-4xl font-playfair font-medium block text-left text-blue-400"
+              >Helping Andrea Save Lives</span
+            >
+            <p class="font-thin text-left pt-3">
+              We make sure Andrew spends his time saving people rather than
+              writing notes.
+            </p>
+            <p class="font-thin text-left pt-3">Seascan has cut down the timehe used to spend in administrative and clerical tasks by 60% ensuring he can focus better in his job.</p>
+            <p class="font-thin text-left">This has resulted in a reduction of incidentss on beach by 4%</p>
+          </div>
+          </div>
+        </div>
+      </section>
+      <div class="h-px border-t border-gray-500"></div>
+      <!-- Section 2 -->
+      <section
+        class="relative z-10 py-4 lg:py-4 xl:py-4 2xl:py-4 h-[900px]"
+      >
+        <div id="work">
+          <div class="mt-5 mb-5">
+            <h2 class="text-4xl font-playfair font-medium text-blue-400">Our Work</h2>
+          </div>
+          <div class="relative">
+            <div
+              class="absolute flex flex-row justify-around z-10 mx-auto w-full"
+            >
+              <div id="andrew">
+                <img
+                  src="./assets/andrew2.png"
+                  data-aos="fade-up-right"
+                  data-aos-duration="800"
+                />
+                <div>
+                  <span class="text-2xl font-playfair font-medium text-blue-400">Helping Andrew Save Lives</span>
+                  <p class="font-thin">We make Andrew spends his time...</p>
+                </div>
+              </div>
+              <div id="QA">
+                <img
+                  src="./assets/QA.png"
+                  data-aos="fade-up"
+                  data-aos-duration="800"
+                />
+
+                <span class="text-2xl font-playfair font-medium text-blue-400">Raising the bar in quality assurance</span>
+                <p class="font-thin">Steve got a raise...</p>
+              </div>
+              <div
+                class="empty-space"
+                data-aos="fade-down"
+                data-aos-once="true"
+              ></div>
+              <div id="gaming">
+                <img
+                  src="./assets/gamingSmall.png"
+                  data-aos="fade-up-left"
+                  data-aos-duration="800"
+                />
+                <div>
+                  <span class="text-2xl font-playfair font-medium text-blue-400">Making your game experience more immersive</span>
+                  <p class="font-thin">We are helping a client in gaming...</p>
+                </div>
+              </div>
+            </div>
+            <img
+              src="./assets/shape.png"
+              alt="Small Image"
+              class="rounded-full overflow-hidden z-0"
+              data-aos="zoom-in"
+              data-aos-init="false"
+              data-aos-animate="true"
+              data-aos-once="true"
+              data-aos-duration="800"
+              data-aos-delay="500"
+              data-aos-once="false"
+              data-aos="zoom-out"
+              data-aos-offset="50%"
+            />
+          </div>
+        </div>
+      </section>
+      <div class="h-px border-t border-gray-500"></div>
+      <!-- Section3 -->
+      <section
+        class="relative z-10 py-4 lg:py-4 xl:py-4 2xl:py-4 h-[900px]"
+      >
+        <div id="work-eco-system" class="flex">
+          <div class="w-1/2 mt-36" data-aos="fade-up-right" data-aos-duration="1000">
+            <span class="font-playfair font-medium text-4xl text-blue-400">How We Work</span>
+            <p class="font-thin text-gray-700 pt-3">Every project is unique, and we give each engagement a unique treatment.We believe that a product and service has an entire eco-system of it's own of which the users, the competition, are just two of many parts.</p>
+            <p class="font-thin text-gray-700">Before crafting and solution, we do a deep dive to understand the core problem we are trying to solve so the solution we create are unique, delightful and a step ahead of the market.</p>
+          </div>
+          <div class="w-1/2 mt-18">
+            <img
+              src="./assets/workEcosystem.png"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            />
+          </div>
+        </div>
+      </section>
+  
+      <!-- Section4 -->
+      <section
+        class="relative z-10 py-4 lg:py-4 xl:py-4 2xl:py-4 bg-yellow-500 h-[900px]"
+      ></section>
+
+      <!-- Section5 -->
+      <section
+        class="relative z-10 py-4 lg:py-4 xl:py-4 2xl:py-4 bg-black-500 h-[900px]"
+      ></section>
+    </div>
+
+    <script>
+      AOS.init({ easing: "ease-in-out" });
+    </script>
+    <script>
+      const hamBurger = document.getElementById("hamBurger-menu");
+      hamBurger.addEventListener("click", () => {
+        hamBurger.classList.toggle("cross");
+      });
+      function toggleMenu() {
+        const menu = document.querySelector(".menu");
+        menu.classList.toggle("hidden");
+        menu.classList.toggle("show");
+      }
+    </script>
+    <script>
+      const element = document.querySelector('[data-aos="zoom-in"]');
+      element.addEventListener("aos:complete", () => {
+        element.querySelector("img").classList.add("full-size");
+      });
+    </script>
+  </body>
+</html>

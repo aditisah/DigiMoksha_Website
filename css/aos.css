@@ -1,0 +1,18 @@
+[data-aos] {
+    position: relative;
+    transition-property: transform, opacity;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-out;
+    visibility: hidden;
+  }
+  
+  [data-aos="fade-up"] {
+    opacity: 0;
+    transform: translate3d(0, 30%, 0);
+  }
+  
+  [data-aos="fade-up"].aos-animate {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  

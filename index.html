@@ -195,7 +195,15 @@
       <!-- Section4 -->
       <section
         class="relative z-10 py-4 lg:py-4 xl:py-4 2xl:py-4 bg-yellow-500 h-[900px]"
-      ></section>
+      >
+      <div class=" absolute flex flex-col mx-auto">
+        <div id="part1" class="bg-red"></div>
+        <div id="part2">
+          <img src ="./assets/gamingLarge.png" data-aos="fade-up">
+        </div>
+        <div id="part3"></div>
+      </div>
+    </section>
 
       <!-- Section5 -->
       <section
@@ -204,7 +212,7 @@
     </div>
 
     <script>
-      AOS.init({ easing: "ease-in-out" });
+      AOS.init({ easing: "ease-in-out", duration: 1000 });
     </script>
     <script>
       const hamBurger = document.getElementById("hamBurger-menu");

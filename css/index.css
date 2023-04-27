@@ -48,15 +48,15 @@
     object-fit: cover;
   }
   
-  .cross .bg-blue-500:nth-child(1) {
+  .cross .bg-blue-400:nth-child(1) {
     transform: rotate(-45deg) translate(-5px,6px);
   }
   
-  .cross .bg-blue-500:nth-child(2) {
+  .cross .bg-blue-400:nth-child(2) {
     opacity: 0;
   }
   
-  .cross .bg-blue-500:nth-child(3) {
+  .cross .bg-blue-400:nth-child(3) {
     transform: rotate(45deg) translate(-5px, -6px);
   }
 

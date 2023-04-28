@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'dark-blue': '#00FFFF'
+        'heading-blue': '#00FFFF'
       },
       fontFamily: {
         'font-awesome': ['Font Awesome 5 Free']

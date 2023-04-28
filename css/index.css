@@ -95,6 +95,21 @@
     animation-duration: 1s;
     animation-fill-mode: forwards;
   }
+  /* Define the @font-face rule
+@font-face {
+  font-family: 'Merryweather';
+  src: url('/path/to/Merryweather.woff2') format('woff2'),
+       url('/path/to/Merryweather.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+} */
+
+/* Use the Merryweather font in your headings */
+/* h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merryweather', serif;
+} */
+
   
   
   
